@@ -1,29 +1,22 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        potatophant.net
+    <Logo />
+      <h1 class="text-7xl font-sans">
+        potatophant
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
+      <div class="flex flex-row">
+        <a href="https://scratch.mit.edu/users/potatophant/" class="transition duration-200 ease-out transform hover:scale-110 hover:bg-blue-500 text-blue-500 hover:text-white font-sans text-4xl rounded-xl px-8 py-4 mt-4">
+          Scratch
         </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
+        <a href="https://github.com/CluckCluckChicken" class="transition duration-200 ease-out transform hover:scale-110 hover:bg-gray-800 text-gray-800 hover:text-white font-sans text-4xl rounded-xl px-8 py-4 mt-4">
           GitHub
         </a>
+        <a href="https://magnifier.potatophant.net/" class="transition duration-200 ease-out transform hover:scale-110 hover:bg-green-600 text-green-600 hover:text-white font-sans text-4xl rounded-xl px-8 py-4 mt-4">
+          Magnifier
+        </a>
       </div>
-    </div>
+    <NuxtChild />
+  </a>
   </div>
 </template>
 
@@ -41,6 +34,7 @@ export default {}
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
