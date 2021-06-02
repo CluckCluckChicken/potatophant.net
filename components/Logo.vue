@@ -1,5 +1,7 @@
 <template>
-  <img src="~/assets/images/potatophant.png" class="w-64 p-0 m-0" />
+  <a href="/" class="transition duration-200 ease-out transform hover:scale-110">
+    <img src="~/assets/images/potatophant.png" class="w-64 p-0 m-0" />
+  </a>
 </template>
 
 <style>
