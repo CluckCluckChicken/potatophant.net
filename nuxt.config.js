@@ -18,7 +18,7 @@ export default {
     ],
     script: [
       { defer, src: 'https://static.cloudflareinsights.com/beacon.min.js', data-cf-beacon: '{"token": "26df8b2184694c26b8a9e6071174deaf"}' }
-    }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
