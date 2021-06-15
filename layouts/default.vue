@@ -2,8 +2,6 @@
   <div>
     <Nuxt />
   </div>
-  
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "26df8b2184694c26b8a9e6071174deaf"}'></script><!-- End Cloudflare Web Analytics -->
 </template>
 
 <style>
