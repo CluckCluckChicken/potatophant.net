@@ -15,6 +15,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { defer: 'defer', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "26df8b2184694c26b8a9e6071174deaf"}' }
     ]
   },
 
