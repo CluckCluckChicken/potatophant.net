@@ -4,6 +4,7 @@
       <h1 class="text-7xl font-sans">
         potatophant
       </h1>
+      <!--
       <div class="flex flex-row">
         <a href="https://scratch.mit.edu/users/potatophant/" class="transition duration-200 ease-out transform hover:scale-110 hover:bg-blue-500 text-blue-500 hover:text-white font-sans text-4xl rounded-xl px-8 py-4 mt-4">
           Scratch
@@ -14,7 +15,7 @@
         <a href="https://magnifier.potatophant.net/" class="transition duration-200 ease-out transform hover:scale-110 hover:bg-green-600 text-green-600 hover:text-white font-sans text-4xl rounded-xl px-8 py-4 mt-4">
           Magnifier
         </a>
-      </div>
+      </div>-->
     <NuxtChild />
   </a>
   </div>
